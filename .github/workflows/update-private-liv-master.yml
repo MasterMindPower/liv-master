@@ -29,4 +29,4 @@ jobs:
         env:
           PRIVATE_REPO_URL: https://x-access-token:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/MasterMindPower/sliv_plays.git
           FERNET_KEY: ${{ secrets.FERNET_KEY }}
-        run: python -u script/live-master-loader.py
+        run: python -u script/main-loader-liv-master.py
